@@ -10,6 +10,6 @@ TL/DR: 組件間的通訊的最推崇的方式是傳遞參數`<Calender disabled
 1. 組件參數 (props)
 2. 上下文API (Context)
 3. 直接訪問組件內的方法 (useImperativeHandle)
-4. 第三方的狀態管理庫，按實現的方式可分為，數據放在React和放在React外的兩種。
+4. 第三方的狀態管理庫，按實現的方式可分為，數據放在React和放在React外的兩種 (Redux的數據是放在React內，zustand的數據是放在React外)。
 
 未完成。。。

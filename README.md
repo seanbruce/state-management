@@ -7,9 +7,9 @@
 TL/DR: 組件間的通訊的最推崇的方式是傳遞參數`<Calender disabledDate={[new Date('2022-01-01'), new Date('2022-03-01')]} onDateSelected={handleDateSelected}/>`。
 
 組件間的數據傳遞有如下這幾種方式：
-1、組件參數 (props)
-2、上下文API (Context)
-3、直接訪問組件內的方法 (useImperativeHandle)
-4、第三方的狀態管理庫，按實現的方式可分為，數據放在React和放在React外的兩種。
+1. 組件參數 (props)
+2. 上下文API (Context)
+3. 直接訪問組件內的方法 (useImperativeHandle)
+4. 第三方的狀態管理庫，按實現的方式可分為，數據放在React和放在React外的兩種。
 
 未完成。。。
